@@ -18,14 +18,12 @@ const Navbar = () => {
     "Companies",
     "News",
     "Politics",
-    "Bollywood",
-    "Hollywood",
     // "More",
   ];
 
   return (
     <nav className="p-4">
-      <div className="flex flex-wrap gap-2 w-full items-center md:justify-around justify-around">
+      <div className="flex flex-wrap gap-2 w-full items-center md:justify-around justify-items-start">
         {tabs.map((tab) => (
           <div key={tab}>
             <p
