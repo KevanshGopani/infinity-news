@@ -48,7 +48,7 @@ function MarqueeUI() {
   }, []);
   return (
     <div className="px-2 rounded-lg w-full h-10 overflow-hidden bg-black flex justify-center items-center cursor-default">
-      <Marquee speed={100}>{marqueeIndex}</Marquee>
+      <Marquee speed={80}>{marqueeIndex}</Marquee>
     </div>
   );
 }
